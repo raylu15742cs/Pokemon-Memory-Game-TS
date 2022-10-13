@@ -1,10 +1,15 @@
-import React from 'react';
-
+import Header from "./Component/Header";
+import Footer from "./Component/Footer";
+import Blob from "./Component/Blob";
+import React from 'react'
+//import "./styles/app.css"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hi</h1>
+    <div className="app">
+      <Header />
+      <Blob />
+      <Footer />
     </div>
   );
 }
