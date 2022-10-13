@@ -11,7 +11,7 @@ let Random = () => {
                 }
            
         }
-        return (<h1>{generated[1]},{generated[2]},{generated[3]},{generated[4]},{generated[5]},{generated[6]},{generated[7]},{generated[8]},{generated[9]},{generated[10]},{generated[11]},{generated[0]}</h1>);
+        return (<h1>{generated[1]} first,{generated[2]},{generated[3]},{generated[4]},{generated[5]},{generated[6]},{generated[7]},{generated[8]},{generated[9]},{generated[10]},{generated[11]},{generated[0]}</h1>);
 }
 
 export default Random
